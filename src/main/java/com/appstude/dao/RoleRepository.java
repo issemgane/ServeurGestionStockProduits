@@ -3,9 +3,10 @@ package com.appstude.dao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.appstude.entities.Produit;
+import com.appstude.entities.Role;
+
 
 @Repository
-public interface ProduitRepository extends JpaRepository<Produit, Long> {
+public interface RoleRepository extends JpaRepository<Role, Long>{
 
 }
