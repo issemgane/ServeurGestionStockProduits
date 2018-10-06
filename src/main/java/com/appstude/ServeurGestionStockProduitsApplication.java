@@ -33,9 +33,9 @@ public class ServeurGestionStockProduitsApplication implements CommandLineRunner
 
 	@Override
 	public void run(String... arg0) throws Exception {
-		/*Role r1 = new Role("ROLE_USER");
-		Role r2 = new Role("ROLE_ADMIN");
-		Role r3 = new Role("ROLE_MANAGER");
+		/*Role r1 = new Role(ROLE_USER.ROLE_USER);
+		Role r2 = new Role(ROLE_ADMIN.ROLE_ADMIN);
+		Role r3 = new Role(ROLE_MANAGER.ROLE_MANAGER);
 		roleRepository.save(r1);
 		roleRepository.save(r2);
         roleRepository.save(r3);
